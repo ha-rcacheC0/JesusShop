@@ -1,0 +1,23 @@
+DROP TABLE IF EXISTS users;
+CREATE TABLE IF NOT EXISTS users (
+  id INTEGER PRIMARY KEY,
+  firstName TEXT,
+  lastName TEXT,
+  email TEXT UNIQUE NOT NULL,
+  phone TEXT UNIQUE,
+  contactReason TEXT NOT NULL
+);
+--DROP TABLE IF EXISTS products;
+CREATE TABLE IF NOT EXISTS products (
+  id INTEGER PRIMARY KEY,
+  gender TEXT NOT NULL,
+  color TEXT NOT NULL,
+  price REAL NOT NULL,
+  category TEXT NOT NULL,
+  imageURL TEXT NOT NULL
+);
+
+-- CREATE TABLE IF NOT EXISTS cart (
+--   id INTEGER PRIMARY KEY,
+--   product_id INTEGER
+-- );

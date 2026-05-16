@@ -1,0 +1,25 @@
+/* Large Screen Devices max-xl:  (1280px)     */
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+/*Tablet max-md:    (768px)    */
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+/*Mobile Phone max-[560px]: max-[400px]:    */
+
+@media screen and (max-width: 560px) {
+  .container {
+    max-width: 370px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+}
